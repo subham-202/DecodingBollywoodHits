@@ -37,15 +37,14 @@ function Navbar() {
       <div>
         <img src="./img/logo.jpg" alt="Logoipsum" width="87" height="87" style={{ borderRadius: '50%' }} />
       </div>
-      <a
+      <div
       className={`nav__hamburger ${navActive ? "active" : ""}`}
       onClick={toggleNav}
-      href="#"
       >
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
-      </a>
+      </div>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
