@@ -76,6 +76,17 @@ function Navbar() {
             </Link>
           </li>
           <li>
+          <a
+            href="https://wa.me/8340272341" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="navbar--content"
+            id="#wa-link"
+          >
+            Whatsapp Now!
+          </a>
+        </li>
+          <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"

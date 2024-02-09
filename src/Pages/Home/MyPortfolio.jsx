@@ -24,7 +24,7 @@ export default function MyPortfolio() {
                 fill="currentColor"
               />
             </svg>
-              <a href="https://www.youtube.com/@Sanskarsaswat1"  rel="noopener noreferrer" style={{color:"black",textDecoration:"none"}}>Visit My Youtube</a>
+              <a className="visit" href="https://www.youtube.com/@Sanskarsaswat1"  rel="noopener noreferrer" style={{textDecoration:"none"}}>Visit My Youtube</a>
           </button>
         </div>
       </div>

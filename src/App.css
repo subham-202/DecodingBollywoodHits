@@ -103,6 +103,15 @@ h2 {
   font-weight: 700;
   line-height: 34px;
 }
+#wa-link {
+  color: initial;
+  transition: color 0.3s ease;
+}
+#wa-link:hover,
+#wa-link:focus,
+#wa-link:active {
+  color: #25D366; /* WhatsApp green color */
+}
 
 /* Pragraphs text large medium small */
 /* Body 1 */
@@ -230,11 +239,18 @@ h2 {
 }
 .hero--section-description {
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 36px;
   /* font-style: italic; */
 }
+.btn-github:hover .visit {
+  color:#e62872 /* your desired color */;
+}
+.visit{
+  color: #000;
+}
+
 .hero--section--img {
   display: flex;
 }
