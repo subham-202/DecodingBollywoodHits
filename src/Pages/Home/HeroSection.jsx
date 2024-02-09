@@ -21,6 +21,7 @@ export default function HeroSection() {
         </div>
         {/* className="btn btn-primary" */}
         <br/>
+        <div className="portfolio--container-box">
         <a
       href="https://forms.gle/tQGViVTnNt8M7zBo7" 
       target="_blank"
@@ -29,6 +30,7 @@ export default function HeroSection() {
     >
       Get in Touch
     </a>
+    </div>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img.jpg" alt="Hero Section" />
