@@ -77,7 +77,7 @@ function Navbar() {
           </li>
           <li>
           <a
-            href="https://wa.me/8340272341" 
+            href="https://wa.me/+918340272341" 
             target="_blank"
             rel="noopener noreferrer"
             className="navbar--content"
