@@ -19,7 +19,16 @@ export default function HeroSection() {
             Here, we're not just exploring music; we are diving deep into the heart and soul of it.
             </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        {/* className="btn btn-primary" */}
+        <br/>
+        <a
+      href="https://forms.gle/tQGViVTnNt8M7zBo7" 
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-primary"
+    >
+      Get in Touch
+    </a>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img.jpg" alt="Hero Section" />

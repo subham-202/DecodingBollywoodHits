@@ -2,8 +2,10 @@ import React from 'react';
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
-      <div><p className="sub--title" onClick={() => window.location.href = "https://forms.gle/tQGViVTnNt8M7zBo7"}>Get In Touch</p><h2 style={{ color: '#fff' }}>Contact Me</h2></div>
-
+      <div>
+      <a className="sub--title" href="https://forms.gle/tQGViVTnNt8M7zBo7">Get In Touch</a>
+      {/* <h2 style={{ color: '#fff' }}>Contact Me</h2> */}
+      </div>
       <form className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">

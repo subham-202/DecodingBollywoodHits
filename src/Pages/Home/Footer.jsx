@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.png" style={{width:"87px",height:"87px",borderRadius:"50%"}} alt="Logoipsum" />
+          {/* <img src="./img/logo.png" style={{width:"87px",height:"87px",borderRadius:"50%"}} alt="Logoipsum" /> */}
         </div>
         <div className="footer--items">
           <ul>
@@ -33,7 +33,7 @@ function Footer() {
                 to="MyPortfolio"
                 className="text-md"
               >
-                Portfolio
+                Projects
               </Link>
             </li>
             <li>
@@ -46,7 +46,7 @@ function Footer() {
                 to="AboutMe"
                 className="text-md"
               >
-                About Me
+                About Us
               </Link>
             </li>
             {/* <li>
@@ -81,10 +81,8 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/decodingbollywoodhits"
                 className="navbar--content"
-                
-               
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -102,10 +100,8 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/decoding_bollywood_hits"
                 className="navbar--content"
-                
-               
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +119,7 @@ function Footer() {
                 </svg>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://www.twitter.com/"
                 className="navbar--content"
@@ -143,8 +139,8 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 href="https://www.linkedin.com/"
                 className="navbar--content"
@@ -166,7 +162,7 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -185,7 +181,7 @@ function Footer() {
                 to="Privacy_Policy"
                 className="text-sm"
               >
-                Privacy Policy
+                {/* Privacy Policy */}
               </Link>
             </li>
             <li>
@@ -198,7 +194,7 @@ function Footer() {
                 to="Terms_of_Service"
                 className="text-sm"
               >
-                Terms of Service
+                {/* Terms of Service */}
               </Link>
             </li>
             <li>
@@ -211,7 +207,7 @@ function Footer() {
                 to="Cookies_Settings"
                 className="text-sm"
               >
-                Cookies Settings
+                {/* Cookies Settings */}
               </Link>
             </li>
           </ul>

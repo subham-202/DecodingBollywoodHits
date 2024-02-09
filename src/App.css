@@ -186,6 +186,10 @@ h2 {
 }
 .navbar--active-content {
   color: var(--primary);
+  cursor: pointer;
+}
+.navbar--active-content:hover{
+ cursor: pointer; 
 }
 /* Navbar Styler Ends */
 

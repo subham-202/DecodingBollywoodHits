@@ -100,23 +100,19 @@ function Navbar() {
               to="testimonial"
               className="navbar--content"
             >
-              Testimonias
+              Testimonials
             </Link>
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
+      <a
+      href="https://forms.gle/tQGViVTnNt8M7zBo7" 
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-outline-primary"
+    >
+      Contact Us
+    </a>
     </nav>
   );
 }

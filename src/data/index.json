@@ -30,22 +30,28 @@
       "id": "1",
       "src": "./img/placeholder-image.jpg",
       "title": "Ve Kamleya",
+      "stars":"5",
       "description": "Dive into the mesmerizing world of Bollywood music with \"Ve Kamleya\" from the soundtrack of \"Rocky Ki Rani Ki Prem Kahani\"! This soulful track, composed with passion and sung with heart, captures the essence of love and longing. Lose yourself in its melodic embrace as you embark on a journey of emotions.",
-      "link": "View In Youtube"
+      "link": "View In Youtube",
+      "adress":"https://www.youtube.com/watch?v=QgXVCuXjvHo"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.jpg",
       "title": "Teri Deewani | Rudraksha Live |",
+      "stars": "4",
       "description": "Enjoy Rudraksha's live rendition of 'Teri Deewani'—a soulful performance brimming with passion and melody. Subscribe for more captivating live music experiences. Stay tuned for upcoming releases and connect with us on social media. Thank you for supporting independent music. Enjoy the performance!",
-      "link": "View In Youtube"
+      "link": "View In Youtube",
+      "adress":"https://www.youtube.com/watch?v=PCnoJcG1kN4"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.jpg",
       "title": "Main Agar Kahoon",
+      "stars": "5",
       "description": "In this enchanting rendition, we bring you the timeless classic \"Main Agar Kahoon\" from the iconic movie \"Om Shanti Om.\" Our talented artists have poured their hearts and souls into this performance, delivering a fresh and melodious take on this evergreen gem.",
-      "link": "View In Youtube"
+      "link": "View In Youtube",
+      "adress":"https://www.youtube.com/watch?v=g2O9dmcA6F0"
     }
   ],
   "testimonial": [
@@ -54,24 +60,24 @@
       "count": "5",
       "src": "./img/avatar-image.png",
       "description": "Incredible experience working with this team! Their dedication to excellence and attention to detail truly sets them apart. Highly recommended for anyone seeking top-notch musical guidance.",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "author_name": "Rahul Kumar",
+      "author_designation": "Keyboard"
     },
     {
       "id": "2",
       "count": "5",
       "src": "./img/avatar-image-1.png",
       "description": "I'm beyond impressed with the professionalism and expertise of this music channel. They've not only helped me improve my skills but also inspired me to push my boundaries. Thank you for the wonderful journey!",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "author_name": "Shivam",
+      "author_designation": "Guitar"
     },
     {
       "id": "3",
       "count": "5",
       "src": "./img/avatar-image-2.png",
       "description": "From the moment I joined, I felt welcomed and supported by the entire team. Their passion for music is infectious, and their commitment to helping clients succeed is unparalleled. Couldn't be happier with my decision to be a part of this community!",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "author_name": "Karthik",
+      "author_designation": "Tabla"
     }
   ]
 }
