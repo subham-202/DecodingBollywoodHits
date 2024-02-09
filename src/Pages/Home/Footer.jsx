@@ -83,8 +83,8 @@ function Footer() {
               <a
                 href="https://www.facebook.com/"
                 className="navbar--content"
-                target="_blank"
-                rel="noreferrer"
+                
+               
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,8 +104,8 @@ function Footer() {
               <a
                 href="https://www.instagram.com/"
                 className="navbar--content"
-                target="_blank"
-                rel="noreferrer"
+                
+               
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -127,8 +127,8 @@ function Footer() {
               <a
                 href="https://www.twitter.com/"
                 className="navbar--content"
-                target="_blank"
-                rel="noreferrer"
+                
+               
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -148,8 +148,8 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/"
                 className="navbar--content"
-                target="_blank"
-                rel="noreferrer"
+                
+               
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
