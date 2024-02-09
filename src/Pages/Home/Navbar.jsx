@@ -82,6 +82,7 @@ function Navbar() {
             rel="noopener noreferrer"
             className="navbar--content"
             id="#wa-link"
+            style={{color:"#25D366",fontSize:"18px"}}
           >
             Whatsapp Now!
           </a>

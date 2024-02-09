@@ -197,8 +197,8 @@ h2 {
   color: var(--primary);
   cursor: pointer;
 }
-.navbar--active-content:hover{
- cursor: pointer; 
+.navbar:hover{
+ cursor: pointer!important; 
 }
 /* Navbar Styler Ends */
 
@@ -687,7 +687,7 @@ input[type="checkbox"] {
   .sections--heading {
     font-size: 35px;
     line-height: 40px;
-    coloor:var(--black)
+    /* coloor:var(--black) */
   }
   .hero--section--content--box {
     gap: 10px;
