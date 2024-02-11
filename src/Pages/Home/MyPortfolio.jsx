@@ -1,6 +1,23 @@
 import data from "../../data/index.json";
-import React from 'react';
+import React,{useState} from 'react';
+import YouTube, { YouTubeProps } from 'react-youtube';
 export default function MyPortfolio() {
+const [player, setPlayer] = useState(false);
+const opts = {
+    height: '237',
+    width: '421.34',
+    playerVars: {
+      autoplay: 1,
+    },
+  };
+  const onReady = (event) => {
+    setPlayer(event.target);
+  };
+  const pauseVideo = () => {
+    if (player) {
+      player.pauseVideo();
+    }
+  };
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
@@ -32,7 +49,8 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+              <YouTube videoId={item.yt} opts={opts} onReady={onReady} />
+              {/* <img src={item.src} alt="Placeholder" /> */}
             </div>
             <div className="portfolio--section--card--content">
               <div>
@@ -65,7 +83,7 @@ export default function MyPortfolio() {
         {data?.Music?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+              <YouTube videoId={item.yt} opts={opts} onReady={onReady} />
             </div>
             <div className="portfolio--section--card--content">
               <div>
