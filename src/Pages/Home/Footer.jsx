@@ -19,6 +19,7 @@ function Footer() {
                 duration={500}
                 to="heroSection"
                 className="text-md"
+                style={{cursor:"pointer"}}
               >
                 Home
               </Link>
@@ -32,6 +33,7 @@ function Footer() {
                 duration={500}
                 to="MyPortfolio"
                 className="text-md"
+                style={{cursor:"pointer"}}
               >
                 Projects
               </Link>
@@ -45,6 +47,7 @@ function Footer() {
                 duration={500}
                 to="AboutMe"
                 className="text-md"
+                style={{cursor:"pointer"}}
               >
                 About Us
               </Link>
@@ -71,6 +74,7 @@ function Footer() {
                 duration={500}
                 to="testimonial"
                 className="text-md"
+                style={{cursor:"pointer"}}
               >
                 Testimonials
               </Link>

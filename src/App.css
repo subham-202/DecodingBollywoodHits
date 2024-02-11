@@ -195,7 +195,6 @@ h2 {
 }
 .navbar--active-content {
   color: var(--primary);
-  cursor: pointer;
 }
 .navbar:hover{
  cursor: pointer!important; 

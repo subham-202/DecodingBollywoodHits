@@ -28,30 +28,58 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.jpg",
-      "title": "Ve Kamleya",
-      "stars":"5",
-      "description": "Dive into the mesmerizing world of Bollywood music with \"Ve Kamleya\" from the soundtrack of \"Rocky Ki Rani Ki Prem Kahani\"! This soulful track, composed with passion and sung with heart, captures the essence of love and longing. Lose yourself in its melodic embrace as you embark on a journey of emotions.",
-      "link": "View In Youtube",
-      "adress":"https://www.youtube.com/watch?v=QgXVCuXjvHo"
-    },
-    {
-      "id": "2",
       "src": "./img/placeholder-image-1.jpg",
       "title": "Teri Deewani | Rudraksha Live |",
       "stars": "4",
       "description": "Enjoy Rudraksha's live rendition of 'Teri Deewani'—a soulful performance brimming with passion and melody. Subscribe for more captivating live music experiences. Stay tuned for upcoming releases and connect with us on social media. Thank you for supporting independent music. Enjoy the performance!",
       "link": "View In Youtube",
-      "adress":"https://www.youtube.com/watch?v=PCnoJcG1kN4"
+      "adress": "https://www.youtube.com/watch?v=PCnoJcG1kN4"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-2.jpg",
+      "title": "Lagan Lagi",
+      "stars": "5",
+      "description": "In this session, we'll embark on a musical journey, connecting the dots between classical raags and Bollywood masterpieces. \"Lagan Lagi,\" with its rich blend of emotions and intricate musical nuances, serves as the perfect canvas for our exploration. ",
+      "link": "View In Youtube",
+      "adress": "https://www.youtube.com/watch?v=QDjjoyhd-SQ"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.jpg",
+      "src": "./img/placeholder-image-3.jpg",
+      "title": "Ve Kamleya",
+      "stars":"5",
+      "description": "Dive into the mesmerizing world of Bollywood music with \"Ve Kamleya\" from the soundtrack of \"Rocky Ki Rani Ki Prem Kahani\"! This soulful track, composed with passion and sung with heart, captures the essence of love and longing. Lose yourself in its melodic embrace as you embark on a journey of emotions.",
+      "link": "View In Youtube",
+      "adress":"https://www.youtube.com/watch?v=QgXVCuXjvHo"
+    }
+  ],
+  "Music":[{
+      "id": "4",
+      "src": "./img/placeholder-image-4.jpg",
       "title": "Main Agar Kahoon",
       "stars": "5",
       "description": "In this enchanting rendition, we bring you the timeless classic \"Main Agar Kahoon\" from the iconic movie \"Om Shanti Om.\" Our talented artists have poured their hearts and souls into this performance, delivering a fresh and melodious take on this evergreen gem.",
       "link": "View In Youtube",
-      "adress":"https://www.youtube.com/watch?v=g2O9dmcA6F0"
+      "adress": "https://www.youtube.com/watch?v=g2O9dmcA6F0"
+    },
+    {
+      "id": "5",
+      "src": "./img/placeholder-image-5.jpg",
+      "title": "Rimjhim Gire Sawan",
+      "stars": "5",
+      "description": "Get ready to immerse yourself in the mesmerizing world of music with our latest karaoke cover of the soul-stirring song \"Rimjhim Gire Sawan.\" Experience the magic of monsoon with this timeless classic as our talented vocalist takes you on a musical journey through the rain-soaked melodies of yesteryears.",
+      "link": "View In Youtube",
+      "adress": "https://www.youtube.com/watch?v=G_5gLTvXdRE"
+    },
+    {
+      "id": "6",
+      "src": "./img/placeholder-image-6.jpg",
+      "title": "Tadap Tadap",
+      "stars": "5",
+      "description": "I'm excited to share a song by one of India's most prominent singers - 'Tadap Tadap.' I've been listening to KK since my childhood and have always admired his unique singing style. So, here's my tribute to the legend. I hope you enjoy my rendition.",
+      "link": "View In Youtube",
+      "adress": "https://www.youtube.com/watch?v=LAPRwDscmoo"
     }
   ],
   "testimonial": [
