@@ -1,5 +1,5 @@
 import data from "../../data/index.json";
-import React,{useState} from 'react';
+import React from 'react';
 export default function Galery() {
       return (
     <section className="portfolio--section" id="MyPortfolio">

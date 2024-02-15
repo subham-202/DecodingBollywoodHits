@@ -1,8 +1,9 @@
 import data from "../../data/index.json";
 import React,{useState} from 'react';
-import YouTube, { YouTubeProps } from 'react-youtube';
+import YouTube from 'react-youtube';
 export default function MyPortfolio() {
 const [player, setPlayer] = useState(false);
+
 const opts = {
     height: '237',
     width: '421.34',
@@ -13,6 +14,7 @@ const opts = {
   const onReady = (event) => {
     setPlayer(event.target);
   };
+  // eslint-disable-next-line  
   const pauseVideo = () => {
     if (player) {
       player.pauseVideo();
