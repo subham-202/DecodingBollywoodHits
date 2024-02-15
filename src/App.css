@@ -726,7 +726,7 @@ input[type="checkbox"] {
   display: block;
   height: 0.188rem;
   width: 100%;
-  background-color: #000000;
+  background-color: #fff;
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
@@ -744,7 +744,7 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(0, 0, 0);
     top: -20rem;
     left: 0;
     width: 100%;
@@ -754,7 +754,7 @@ input[type="checkbox"] {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 3rem 0 0.6rem;
+    padding: 0rem 0 0.6rem;
     z-index: -100;
   }
   .navbar--items ul li {
